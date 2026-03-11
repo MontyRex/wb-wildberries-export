@@ -71,20 +71,6 @@ py -m wb_export --enrich-cards
 - `rating` — рейтинг
 - `reviews_count` — количество отзывов
 
-## Как залить на GitHub
-
-1. Создайте репозиторий на GitHub.
-2. В PowerShell:
-
-```bash
-cd "C:\Users\MontyRex\wb-wildberries-export"
-git init
-git add .
-git commit -m "Initial: Wildberries каталог в XLSX"
-git branch -M main
-git remote add origin <URL_вашего_репозитория>
-git push -u origin main
-```
 
 ## Примечания
 
